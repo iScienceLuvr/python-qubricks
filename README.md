@@ -1,6 +1,8 @@
 python-qubricks
 ===============
 
+[![Join the chat at https://gitter.im/iScienceLuvr/python-qubricks](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/iScienceLuvr/python-qubricks?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 QuBricks is a toolkit for the analysis and simulation of quantum systems in 
 Python. The primary goal of QuBricks is to facilitate insight into quantum 
 systems; rather than to be the fastest or most efficient simulator. As such, 
