@@ -131,7 +131,9 @@ class SchrodingerStateOperator(StateOperator):
 class LindbladStateOperator(StateOperator):
     '''
     A StateOperator instance that effects a single-termed Lindblad master equation. This will cause decay in a simple
-    two level system proportional to: exp(-8*coefficient*t)
+    two level system proportional to: exp(-8*coefficient*t). Takes in the Lindblad operator along with a coefficient.
+    To solve a Lindblad equation, use the integrate function from ExpectationMeasurement or QuantumSystem with a 
+    SchrodingerStateOperator instance. Found in example at the beginning of the documentation
     '''
 
     def init(self, coefficient, operator):
